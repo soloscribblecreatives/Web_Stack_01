@@ -1,0 +1,60 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.s1_1 {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  z-index: 1;
+}
+
+.s1_2 {
+  position: absolute;
+  left: 32px;
+  top: 178px;
+  width: 250px;
+  height: 457px;
+  animation: slideInRight 1s;
+  animation-delay: 0s;
+  animation-fill-mode: both;
+  z-index: 5;
+}
+
+.s1_3 {
+  position: absolute;
+  left: 316px;
+  top: 236px;
+  width: 666px;
+  height: 389px;
+  animation: zoomIn 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  z-index: 10;
+}
+
+.popup {
+  position: absolute;
+  width: 1024px;
+  height: 768px;
+  display: none;
+  z-index: 15;
+}
+
+.pop_open {
+	position: absolute;
+  left: 448px;
+  top: 284px;
+  width: 135px;
+  height: 176px;
+	z-index: 10;
+}
+
+.pop_close {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	display: none;
+	z-index: 20;
+}
