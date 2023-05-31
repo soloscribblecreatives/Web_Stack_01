@@ -106,6 +106,29 @@
   z-index: 10;
 }
 
+.s1_11 {
+  position: absolute;
+  left: 540px;
+  top: 290px;
+  width: 28px;
+  height: 36px;
+  animation: flashIt 1s infinite;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+  z-index: 20;
+}
+
+
+@keyframes flashIt {
+  0%, 50%, 100% {
+    opacity: 0;
+  }
+
+  25%, 75% {
+    opacity: 1;
+  }
+}
+
 .popup {
   position: absolute;
   width: 1024px;
