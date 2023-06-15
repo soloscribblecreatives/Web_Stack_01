@@ -12,11 +12,11 @@
 
 .s13_2 {
 	position: absolute;
-  left: 0px;
-  top: 283px;
-  width: 269px;
-  height: 36px;
-	animation: slideInLeft 0.5s;
+  left: 559px;
+  top: 208px;
+  width: 243px;
+  height: 42px;
+	animation: slideInRight 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 4;
@@ -28,7 +28,7 @@
   top: 0px;
   width: 378px;
   height: 126px;
-	animation: slideInRight 0.5s;
+	animation: slideInUp 0.5s;
 	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 3;
@@ -36,10 +36,10 @@
 
 .s13_3_wrap {
 	position: absolute;
-  left: 33px;
-  top: 349px;
-  width: 347px;
-  height: 93px;
+  left: 240px;
+  top: 608px;
+  width: 97px;
+  height: 119px;
   overflow: hidden;
 	z-index: 4;
 }
@@ -50,7 +50,7 @@
   top: 0px;
   width: 382px;
   height: 126px;
-	animation: slideInRight 0.5s;
+	animation: slideInUp 0.5s;
 	animation-delay: 3s;
 	animation-fill-mode: both;
 	z-index: 2;
@@ -58,10 +58,10 @@
 
 .s13_4_wrap {
 	position: absolute;
-  left: 33px;
-  top: 458px;
-  width: 290px;
-  height: 93px;
+  left: 444px;
+  top: 608px;
+  width: 146px;
+  height: 122px;
     overflow: hidden;
 	z-index: 4;
 }
@@ -72,7 +72,7 @@
   top: 0px;
   width: 354px;
   height: 93px;
-	animation: slideInRight 0.5s;
+	animation: slideInUp 0.5s;
 	animation-delay: 5s;
 	animation-fill-mode: both;
 	z-index: 2;
@@ -80,20 +80,20 @@
 
 .s13_5_wrap {
 	position: absolute;
-  left: 33px;
-  top: 566px;
-  width: 354px;
-  height: 93px;
+  left: 631px;
+  top: 608px;
+  width: 209px;
+  height: 123px;
     overflow: hidden;
 	z-index: 4;
 }
 
 .s13_vid1 {
   position: absolute;
-  left: 565px;
-  top: 271px;
-  width: 439px;
-  height: 247px;
+  left: 222px;
+  top: 266px;
+  width: 580px;
+  height: 326px;
   z-index: 80;
 }
 

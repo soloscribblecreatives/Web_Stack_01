@@ -16,7 +16,7 @@
   top: 221px;
   width: 292px;
   height: 479px;
-	animation: spinInY 1s;
+	animation: riseUp 1s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 4;
@@ -28,7 +28,7 @@
   top: 222px;
   width: 299px;
   height: 476px;
-	animation: spinInY 1s;
+	animation: riseUp 1s;
 	animation-delay: 0.5s;
 	animation-fill-mode: both;
 	z-index: 3;
@@ -40,7 +40,7 @@
   top: 222px;
   width: 293px;
   height: 477px;
-	animation: spinInY 1s;
+	animation: riseUp 1s;
 	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 2;
@@ -154,9 +154,15 @@
   animation-name: fadeInDownSmall;
 }
 
+
+
+
+
+
+
 @keyframes spinInY {
   0% {
-    transform: perspective(400px) rotate3d(0, 1, 0, -90deg);
+    transform: perspective(400px) rotate3d(0, 1, 0, 180deg);
     animation-timing-function: ease-in;
     opacity: 0;
   }
@@ -165,5 +171,23 @@
     transform: perspective(400px) rotate3d(0, 1, 0, 360deg);
     animation-timing-function: ease-in;
     opacity: 1;
+  }
+}
+
+
+@keyframes riseUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translate3d(0, 100%, 0);
+  }
+  
+  30% {
+    opacity: 1;
+    transform: scale(0.5) translate3d(0, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
   }
 }

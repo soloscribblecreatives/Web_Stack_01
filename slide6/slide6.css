@@ -12,11 +12,11 @@
 
 .s6_2 {
 	position: absolute;
-  left: 0px;
-  top: 250px;
-  width: 292px;
-  height: 68px;
-	animation: slideInLeft 0.5s;
+  left: 559px;
+  top: 192px;
+  width: 243px;
+  height: 42px;
+	animation: slideInRight 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 4;
@@ -26,9 +26,9 @@
 	position: absolute;
   left: 0px;
   top: 0px;
-  width: 378px;
-  height: 126px;
-	animation: slideInRight 0.5s;
+  width: 181px;
+  height: 134px;
+	animation: slideInUp 0.5s;
 	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 3;
@@ -36,10 +36,10 @@
 
 .s6_3_wrap {
 	position: absolute;
-  left: 38px;
-  top: 356px;
-  width: 378px;
-  height: 126px;
+  left: 243px;
+  top: 595px;
+  width: 181px;
+  height: 134px;
   overflow: hidden;
 	z-index: 4;
 }
@@ -48,9 +48,9 @@
 	position: absolute;
   left: 0px;
   top: 0px;
-  width: 382px;
-  height: 126px;
-	animation: slideInRight 0.5s;
+  width: 217px;
+  height: 135px;
+	animation: slideInUp 0.5s;
 	animation-delay: 4.5s;
 	animation-fill-mode: both;
 	z-index: 2;
@@ -58,20 +58,20 @@
 
 .s6_4_wrap {
 	position: absolute;
-  left: 36px;
-  top: 518px;
-  width: 382px;
-  height: 126px;
+  left: 565px;
+  top: 595px;
+  width: 217px;
+  height: 135px;
     overflow: hidden;
 	z-index: 4;
 }
 
 .s6_vid1 {
   position: absolute;
-  left: 565px;
-  top: 271px;
-  width: 439px;
-  height: 247px;
+  left: 222px;
+  top: 250px;
+  width: 580px;
+  height: 326px;
   z-index: 80;
 }
 
