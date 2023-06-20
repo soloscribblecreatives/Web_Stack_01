@@ -103,7 +103,7 @@
 	animation: zoomInDown 1s;
 	animation-delay: 4.5s;
 	animation-fill-mode: both;
-  z-index: 5;
+  z-index: 2;
 }
 
 .s10_10 {
