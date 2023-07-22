@@ -5,25 +5,19 @@
 
 .s1_1 {
 	position: absolute;
-	width: 1024px;
-	height: 768px;
-	z-index: 1;
-}
-
-.s1_vid1 {
-	position: absolute;
-	width: 1024px;
-	height: 768px;
+	width: 1080px;
+	height: 810px;
 	z-index: 1;
 }
 
 .s1_2 {
 	position: absolute;
-  left: 86px;
-  top: 328px;
-  width: 220px;
-  height: 337px;
-	animation: flash 1s infinite;
+  left: 546px;
+  top: 25px;
+  width: 534px;
+  height: 674px;
+  clip: rect(680px,540px,680px,0px);
+	animation: revealVerticalRev 1s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 4;
@@ -31,50 +25,50 @@
 
 .s1_3 {
 	position: absolute;
-  left: 83px;
-  top: 346px;
-  width: 189px;
-  height: 309px;
-	animation: flash 0.5s infinite;
-	animation-delay: 0s;
+  left: 18px;
+  top: 667px;
+  width: 508px;
+  height: 55px;
+	animation: fadeInDown 0.5s;
+	animation-delay: 1s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
 
 .s1_4 {
 	position: absolute;
-  left: 178px;
-  top: 501px;
-  width: 316px;
-  height: 233px;
-	animation: fadeInLeft 1s;
-	animation-delay: 2s;
+  left: 339px;
+  top: 284px;
+  width: 155px;
+  height: 414px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	z-index: 2;
 }
 
 .s1_5 {
 	position: absolute;
-  left: 546px;
-  top: 502px;
-  width: 311px;
-  height: 232px;
-	animation: fadeInRight 1s;
-	animation-delay: 2.5s;
+  left: 104px;
+  top: 286px;
+  width: 154px;
+  height: 412px;
+	animation: fadeInLeft 0.5s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
 	z-index: 2;
 }
 
 .s1_6 {
 	position: absolute;
-  left: 725px;
-  top: 282px;
-  width: 303px;
-  height: 216px;
-	animation: fadeInRight 1s;
-	animation-delay: 3s;
+  left: 223px;
+  top: 396px;
+  width: 159px;
+  height: 293px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.5s;
 	animation-fill-mode: both;
-	z-index: 2;
+	z-index: 5;
 }
 
 .s1_7 {
@@ -125,6 +119,38 @@
 	height: 768px;
 	display: none;
 	z-index: 20;
+}
+
+@keyframes revealVertical {
+  0% {
+    clip: rect(0px,540px,0px,0px);
+	opacity: 1;
+  }
+  
+  100% {
+    clip: rect(0px,540px,680px,0px);
+	opacity: 1;
+  }
+}
+
+@keyframes revealVerticalRev {
+  0% {
+    clip: rect(680px,540px,680px,0px);
+  }
+  
+  100% {
+    clip: rect(0px,540px,680px,0px);
+  }
+}
+
+
+@keyframes graphUp {
+    0%  {
+		clip: rect(540px,0px,0px,0px); 
+	}
+    100%	{
+		clip: rect(0px,540px,680px,0px); 
+	}
 }
 
 
