@@ -17,7 +17,7 @@
   width: 534px;
   height: 674px;
   clip: rect(680px,540px,680px,0px);
-	animation: revealVerticalRev 1s;
+	animation: revealVerticalRev 0.5s;
 	animation-delay: 0s;
 	animation-fill-mode: both;
 	z-index: 4;
@@ -25,75 +25,74 @@
 
 .s1_3 {
 	position: absolute;
+  left: 0px;
+  top: 50px;
+  width: 533px;
+  height: 389px;
+	animation: fadeInLeft 0.5s;
+	animation-delay: 0.5s;
+	animation-fill-mode: both;
+	z-index: 4;
+}
+
+.s1_4 {
+	position: absolute;
+  left: 30px;
+  top: 194px;
+  width: 462px;
+  height: 31px;
+	animation: flashLong 2.5s infinite;
+	animation-delay: 1s;
+	animation-fill-mode: both;
+	z-index: 4;
+}
+
+.s1_5 {
+	position: absolute;
   left: 18px;
   top: 667px;
   width: 508px;
   height: 55px;
 	animation: fadeInDown 0.5s;
-	animation-delay: 1s;
+	animation-delay: 2s;
 	animation-fill-mode: both;
 	z-index: 3;
 }
 
-.s1_4 {
+.s1_6 {
 	position: absolute;
   left: 339px;
   top: 284px;
   width: 155px;
   height: 414px;
 	animation: fadeInRight 0.5s;
-	animation-delay: 1.5s;
+	animation-delay: 2.5s;
 	animation-fill-mode: both;
 	z-index: 2;
 }
 
-.s1_5 {
+.s1_7 {
 	position: absolute;
   left: 104px;
   top: 286px;
   width: 154px;
   height: 412px;
 	animation: fadeInLeft 0.5s;
-	animation-delay: 1.5s;
-	animation-fill-mode: both;
-	z-index: 2;
-}
-
-.s1_6 {
-	position: absolute;
-  left: 223px;
-  top: 396px;
-  width: 159px;
-  height: 293px;
-	animation: zoomIn 0.5s;
-	animation-delay: 1.5s;
-	animation-fill-mode: both;
-	z-index: 5;
-}
-
-.s1_7 {
-	position: absolute;
-  left: 82px;
-  top: 366px;
-  width: 883px;
-  height: 140px;
-	animation: fadeInDown 1s;
-	animation-delay: 4s;
+	animation-delay: 2.5s;
 	animation-fill-mode: both;
 	z-index: 2;
 }
 
 .s1_8 {
 	position: absolute;
-  left: 516px;
-  top: 321px;
-  width: 144px;
-  height: 94px;
-	animation: pulse 1s infinite;
-	animation-delay: 4.5s;
+  left: 223px;
+  top: 393px;
+  width: 159px;
+  height: 293px;
+	animation: zoomIn 0.5s;
+	animation-delay: 2.5s;
 	animation-fill-mode: both;
-	opacity: 0;
-	z-index: 2;
+	z-index: 5;
 }
 
 .s1_9 {
@@ -119,6 +118,17 @@
 	height: 768px;
 	display: none;
 	z-index: 20;
+}
+
+
+@keyframes flashLong {
+  0%,  100% {
+    opacity: 0;
+  }
+
+  25%, 50%, 75% {
+    opacity: 1;
+  }
 }
 
 @keyframes revealVertical {
