@@ -97,6 +97,18 @@
 
 .s1_9 {
 	position: absolute;
+  left: 35px;
+  top: 309px;
+  width: 84px;
+  height: 85px;
+	animation: flashLong 2s infinite;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s1_10 {
+	position: absolute;
 	width: 1024px;
 	height: 768px;
 	display: none;

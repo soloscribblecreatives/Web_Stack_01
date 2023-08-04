@@ -79,7 +79,7 @@
 	animation: zoomInDown 1s;
 	animation-delay: 3.5s;
 	animation-fill-mode: both;
-  z-index: 5;
+  z-index: 2;
 }
 
 .s10_8 {
@@ -116,6 +116,24 @@
   animation-delay: 3.5s;
   animation-fill-mode: both;
   z-index: 7;
+}
+
+.nodefluid {
+  position: absolute;
+  left: 803px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 105;
+}
+
+.nodeds {
+  position: absolute;
+  left: 937px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 106;
 }
 
 .hit_1, .hit_2, .hit_3, .hit_4 {

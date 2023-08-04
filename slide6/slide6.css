@@ -106,25 +106,40 @@
 	z-index: 2;
 }
 
-.posology {
+.study1 {
 	position: absolute;
-  left: 866px;
-  top: 678px;
-  width: 214px;
-  height: 70px;
+  left: 640px;
+  top: 685px;
+  width: 122px;
+  height: 61px;
 	z-index: 20;
 }
 
-.principle {
+.study2 {
 	position: absolute;
-  left: 332px;
-  top: 247px;
-  width: 134px;
-  height: 129px;
-	animation: slideInLeft 1s;
-	animation-delay: 1.5s;
-	animation-fill-mode: both;
+  left: 764px;
+  top: 685px;
+  width: 122px;
+  height: 61px;
 	z-index: 20;
+}
+
+.nodefluid {
+  position: absolute;
+  left: 803px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 105;
+}
+
+.nodeg {
+  position: absolute;
+  left: 937px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 106;
 }
 
 .s6_pop1 {

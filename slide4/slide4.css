@@ -112,10 +112,28 @@
   top: 628px;
   width: 103px;
   height: 77px;
-	animation: flipInXFlash 2s;
+	animation: swing 2s infinite;
 	animation-delay: 5s;
 	animation-fill-mode: both;
 	z-index: 2;
+}
+
+.nodeds {
+  position: absolute;
+  left: 803px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 105;
+}
+
+.nodeg {
+  position: absolute;
+  left: 937px;
+  top: 0px;
+  width: 127px;
+  height: 37px;
+  z-index: 106;
 }
 
 .s4_pop1 {

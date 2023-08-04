@@ -73,7 +73,7 @@ function touchHandler(e) {
 			open_page("",4)
 		}
 		if(page_id == 10){
-			open_page("",8)
+			open_page("",6)
 		}
 		if(page_id == 12){
 			open_page("",10)
@@ -86,7 +86,7 @@ function touchHandler(e) {
 		if(page_id == 4){
 			open_page("",6)
 		}
-		if(page_id == 8){
+		if(page_id == 6){
 			open_page("",10)
 		}
 		if(page_id == 10){
@@ -132,7 +132,7 @@ function touchHandler(e) {
 			if(page_id == 4){
 				open_page("",6)
 			}
-			if(page_id == 8){
+			if(page_id == 6){
 				open_page("",10)
 			}
 			if(page_id == 10){
@@ -162,7 +162,7 @@ function touchHandler(e) {
 				open_page("",4)
 			}
 			if(page_id == 10){
-				open_page("",8)
+				open_page("",6)
 			}
 			if(page_id == 12){
 				open_page("",10)
@@ -425,7 +425,7 @@ currentSlide();
 var selectedContentPath='';
 switch(pg_id){
 	case 1:
-	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="s1_1"><img src="slide1/s1_1.png" width="1080" height="810" alt=""></div><div class="s1_2"><img src="slide1/s1_2.png"/></div><div class="s1_3"><img src="slide1/s1_3.png"/></div><div class="s1_4"><img src="slide1/s1_4.png"/></div><div class="s1_5"><img src="slide1/s1_5.png"/></div><div class="s1_6"><img src="slide1/s1_6.gif"/></div><div class="s1_7"><img src="slide1/s1_7.gif"/></div><div class="s1_8"><img src="slide1/s1_8.gif"/></div><div class="principle" onclick="checkBtns(7)"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide1/slide1.css" media="screen"/><div class="s1_1"><img src="slide1/s1_1.png" width="1080" height="810" alt=""></div><div class="s1_2"><img src="slide1/s1_2.png"/></div><div class="s1_3"><img src="slide1/s1_3.png"/></div><div class="s1_4"><img src="slide1/s1_4.png"/></div><div class="s1_5"><img src="slide1/s1_5.png"/></div><div class="s1_6"><img src="slide1/s1_6.gif"/></div><div class="s1_7"><img src="slide1/s1_7.gif"/></div><div class="s1_8"><img src="slide1/s1_8.gif"/></div><div class="s1_9"><img src="slide1/s1_9.png"/></div><div class="principle" onclick="checkBtns(7)"></div>';
 	break;
 	case 2:
 	content='<link rel="stylesheet" type="text/css" href="slide2/slide2.css" media="screen"/><div class="spin1" onclick="spin1()"></div><div class="s2_1"><img src="slide2/s2_1.png" width="1080" height="810" alt=""></div><div class="s2_2"><img src="slide2/s2_2.png"/></div><div class="s2_3"><img src="slide2/s2_3.png"/></div><div class="spin2" onclick="spin2()"></div><div class="s2_4"><img src="slide2/s2_4.png" width="1080" height="810" alt=""></div><div class="s2_5"><img src="slide2/s2_5.png"/></div><div class="s2_6"><img src="slide2/s2_6.png"/></div><div class="spin3" onclick="spin3()"></div><div class="s2_7"><img src="slide2/s2_7.png" width="1080" height="810" alt=""></div><div class="s2_8"><img src="slide2/s2_8.png"/></div><div class="s2_9"><img src="slide2/s2_9.png"/></div>';
@@ -434,13 +434,13 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide3/slide3.css" media="screen"/><div class="s3_vid"><video width="1080" height="810" autoplay controls><source src="slide3/s3_vid1.mp4" type="video/mp4"></video></div>';
 	break;
 	case 4:
-	content='<link rel="stylesheet" type="text/css" href="slide4/slide4.css" media="screen"/><div class="s4_1"><img src="slide4/s4_1.png" width="1080" height="810" alt=""></div><div class="s4_2"><img src="slide4/s4_2.png"/></div><div class="s4_3"><img src="slide4/s4_3.png"/></div><div class="s4_4"><img src="slide4/s4_4.png"/></div><div class="s4_5"><img src="slide4/s4_5.png"/></div><div class="s4_6"><img src="slide4/s4_6.png"/></div><div class="s4_7"><img src="slide4/s4_7.png"/></div><div class="s4_8"><img src="slide4/s4_8.png"/></div><div class="s4_9"><img src="slide4/s4_9.png"/></div><div class="s4_10"><img src="slide4/s4_10.png"/></div><div class="video" onclick="checkBtns(7)"></div><div class="posology" onclick="checkBtns(1)"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide4/slide4.css" media="screen"/><div class="s4_1"><img src="slide4/s4_1.png" width="1080" height="810" alt=""></div><div class="s4_2"><img src="slide4/s4_2.png"/></div><div class="s4_3"><img src="slide4/s4_3.png"/></div><div class="s4_4"><img src="slide4/s4_4.png"/></div><div class="s4_5"><img src="slide4/s4_5.png"/></div><div class="s4_6"><img src="slide4/s4_6.png"/></div><div class="s4_7"><img src="slide4/s4_7.png"/></div><div class="s4_8"><img src="slide4/s4_8.png"/></div><div class="s4_9"><img src="slide4/s4_9.png"/></div><div class="s4_10"><img src="slide4/s4_10.png"/></div><div class="video" onclick="checkBtns(7)"></div><div class="posology" onclick="checkBtns(1)"></div><div class="nodeds" onclick="checkBtns(4)"></div><div class="nodeg" onclick="checkBtns(6)"></div>';
 	break;
 	case 5:
 	content='<link rel="stylesheet" type="text/css" href="slide5/slide5.css" media="screen"/><div class="s5_1"><img src="slide5/s5_1.png" width="1080" height="810" alt=""></div><div class="s5_2_wrap"><div class="s5_2"><img src="slide5/s5_2.png"/></div></div><div class="s5_3_wrap"><div class="s5_3"><img src="slide5/s5_3.png"/></div></div><div class="s5_4_wrap"><div class="s5_4"><img src="slide5/s5_4.png"/></div></div><div class="s5_vid1"><video width="587" height="330" autoplay controls><source src="slide5/s5_vid1.mp4" type="video/mp4"></video>';
 	break;
 	case 6:
-	content='<link rel="stylesheet" type="text/css" href="slide6/slide6.css" media="screen"/><div class="s6_1"><img src="slide6/s6_1.png" width="1080" height="810" alt=""></div><div class="s6_2"><img src="slide6/s6_2.png"/></div><div class="s6_3"><img src="slide6/s6_3.png"/></div><div class="s6_4"><img src="slide6/s6_4.png"/></div><div class="s6_5"><img src="slide6/s6_5.png"/></div><div class="s6_6"><img src="slide6/s6_6.png"/></div><div class="s6_7"><img src="slide6/s6_7.png"/></div><div class="s6_8"><img src="slide6/s6_8.png"/></div><div class="posology" onclick="checkBtns(3)"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide6/slide6.css" media="screen"/><div class="s6_1"><img src="slide6/s6_1.png" width="1080" height="810" alt=""></div><div class="s6_2"><img src="slide6/s6_2.png"/></div><div class="s6_3"><img src="slide6/s6_3.png"/></div><div class="s6_4"><img src="slide6/s6_4.png"/></div><div class="s6_5"><img src="slide6/s6_5.png"/></div><div class="s6_6"><img src="slide6/s6_6.png"/></div><div class="s6_7"><img src="slide6/s6_7.png"/></div><div class="s6_8"><img src="slide6/s6_8.png"/></div><div class="posology" onclick="checkBtns(3)"></div><div class="study1" onclick="checkBtns(8)"></div><div class="study2" onclick="checkBtns(9)"></div><div class="nodefluid" onclick="checkBtns(2)"></div><div class="nodeg" onclick="checkBtns(6)"></div>';
 	break;
 	case 7:
 	content='<link rel="stylesheet" type="text/css" href="slide7/slide7.css" media="screen"/><div class="s7_1"><img src="slide7/s7_1.png" width="1080" height="810" alt=""></div><div class="s7_2"><img src="slide7/s7_2.png"/></div><div class="s7_3"><img src="slide7/s7_3.png"/></div><div class="s7_4"><img src="slide7/s7_4.png"/></div>';
@@ -452,7 +452,7 @@ switch(pg_id){
 	content='<link rel="stylesheet" type="text/css" href="slide9/slide9.css" media="screen"/><div class="s9_1"><img src="slide9/s9_1.png" width="1080" height="810" alt=""></div><div class="s9_2"><img src="slide9/s9_2.png"/></div><div class="s9_3"><img src="slide9/s9_3.png"/></div><div class="s9_4"><img src="slide9/s9_4.png"/></div><div class="s9_5"><img src="slide9/s9_5.png"/></div><div class="s9_6"><img src="slide9/s9_6.png"/></div><div class="s9_7"><img src="slide9/s9_7.png"/></div><div class="s9_8"><img src="slide9/s9_8.png"/></div><div class="s9_9"><img src="slide9/s9_9.png"/></div><div class="s9_10"><img src="slide9/s9_10.png"/></div><div class="home" onclick="checkBtns(4)"></div>';
 	break;
 	case 10:
-	content='<link rel="stylesheet" type="text/css" href="slide10/slide10.css" media="screen"/><div class="s10_1"><img src="slide10/s10_1.png" width="1080" height="810" alt=""/></div><div class="s10_2"><img src="slide10/s10_2.png"/></div><div class="s10_3"><img src="slide10/s10_3.png"/></div><div class="s10_4"><img src="slide10/s10_4.png"/></div><div class="s10_5"><img src="slide10/s10_5.png"/></div><div class="s10_6"><img src="slide10/s10_6.png"/></div><div class="s10_7"><img src="slide10/s10_7.png"/></div><div class="posology" onclick="checkBtns(5)"></div>';
+	content='<link rel="stylesheet" type="text/css" href="slide10/slide10.css" media="screen"/><div class="s10_1"><img src="slide10/s10_1.png" width="1080" height="810" alt=""/></div><div class="s10_2"><img src="slide10/s10_2.png"/></div><div class="s10_3"><img src="slide10/s10_3.png"/></div><div class="s10_4"><img src="slide10/s10_4.png"/></div><div class="s10_5"><img src="slide10/s10_5.png"/></div><div class="s10_6"><img src="slide10/s10_6.png"/></div><div class="s10_7"><img src="slide10/s10_7.png"/></div><div class="posology" onclick="checkBtns(5)"></div><div class="nodefluid" onclick="checkBtns(2)"></div><div class="nodeds" onclick="checkBtns(4)"></div>';
 	break;
 	case 11:
 	content='<link rel="stylesheet" type="text/css" href="slide11/slide11.css" media="screen"/><div class="s11_1"><img src="slide11/s11_1.png" width="1080" height="810" alt=""></div><div class="s11_2"><img src="slide11/s11_2.png"/></div><div class="s11_3"><img src="slide11/s11_3.png"/></div><div class="s11_4"><img src="slide11/s11_4.png"/></div><div class="s11_5"><img src="slide11/s11_5.png"/></div><div class="s11_6"><img src="slide11/s11_6.png"/></div><div class="s11_7"><img src="slide11/s11_7.png"/></div><div class="s11_8"><img src="slide11/s11_8.png"/></div><div class="home" onclick="checkBtns(6)"></div>';
@@ -527,6 +527,12 @@ function open_page(url,page_id){
 	if(currentslide == 5){
 	document.getElementById("click_through").innerHTML='<div class="blocker"></div><div class="home" onclick="checkBtns(2)"></div>';
 		}
+	if(currentslide == 7){
+	document.getElementById("click_through").innerHTML='<div class="blocker"></div><div class="home" onclick="checkBtns(4)"></div>';
+		}
+	if(currentslide == 8){
+	document.getElementById("click_through").innerHTML='<div class="blocker"></div><div class="home" onclick="checkBtns(4)"></div>';
+		}
     if(currentslide == 9){
 	document.getElementById("click_through").innerHTML='<div class="blocker"></div><div class="home" onclick="checkBtns(4)"></div>';
 		}
@@ -558,6 +564,12 @@ function open_page(url,page_id){
             break;
 			case 7:
 			open_page('',3);
+            break;
+			case 8:
+			open_page('',7);
+            break;
+			case 9:
+			open_page('',8);
             break;
 		}
 	}
