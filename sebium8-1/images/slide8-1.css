@@ -3,6 +3,70 @@
 	padding: 0px;
 }
 
+.nav {
+	position: absolute;
+  left: 384px;
+  top: 0px;
+  width: 696px;
+  height: 29px;
+	z-index: 2;
+}
+
+
+.spot1 {
+	position: absolute;
+  left: 383px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot2 {
+	position: absolute;
+  left: 498px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot3 {
+	position: absolute;
+  left: 613px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot4 {
+	position: absolute;
+  left: 728px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot5 {
+	position: absolute;
+  left: 843px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot6 {
+	position: absolute;
+  left: 958px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
 .s1 {
 	position: absolute;
 	width: 1080px;

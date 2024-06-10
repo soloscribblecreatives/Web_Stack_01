@@ -36,6 +36,70 @@ body {
 	padding: 0px;
 }
 
+.nav {
+	position: absolute;
+  left: 384px;
+  top: 0px;
+  width: 696px;
+  height: 29px;
+	z-index: 2;
+}
+
+
+.spot1 {
+	position: absolute;
+  left: 383px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot2 {
+	position: absolute;
+  left: 498px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot3 {
+	position: absolute;
+  left: 613px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot4 {
+	position: absolute;
+  left: 728px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot5 {
+	position: absolute;
+  left: 843px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
+.spot6 {
+	position: absolute;
+  left: 958px;
+  top: 0px;
+  width: 114px;
+  height: 44px;
+	z-index: 15;
+}
+
 .s1_1 {
 	position: fixed;
 	width: 100%;
@@ -202,8 +266,29 @@ body {
 <body onload="load();" style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index12.html">
 <div id="Stage" class="EDGE-144335490" style="position: absolute;">
-    <div class="s1_1"><img src="images/s1_1.png" width="100%" alt=""></div><div class="s1_2"><img src="images/s1_2.png"/></div><div class="s1_3"><img src="images/s1_3.png"/></div><div class="s1_4"><img src="images/s1_4.png"/></div><div class="s1_5"><img src="images/s1_5.png"/></div><div class="s1_6"><img src="images/s1_6.png"/></div>    
+    <div class="s1_1"><img src="images/s1_1.png" width="100%" alt=""></div><div class="s1_2"><img src="images/s1_2.png"/></div><div class="s1_3"><img src="images/s1_3.png"/></div><div class="s1_4"><img src="images/s1_4.png"/></div><div class="s1_5"><img src="images/s1_5.png"/></div><div class="s1_6"><img src="images/s1_6.png"/></div><div class="nav"><img src="../sebium2/images/nav.png"/></div><div class="spot1" onclick="spot1()"></div><div class="spot2" onclick="spot2()"></div><div class="spot3" onclick="spot3()"></div><div class="spot4" onclick="spot4()"></div><div class="spot5" onclick="spot5()"></div><div class="spot6" onclick="spot6()"></div>
 </div>
+
+	<script>
+		function spot1() {
+			window.location.href="../sebium5/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}	
+		function spot2() {
+			window.location.href="../sebium8/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot3() {
+			window.location.href="../sebium10/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot4() {
+			window.location.href="../sebium16/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot5() {
+			window.location.href="../sebium19/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot6() {
+			window.location.href="../sebium23/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+	</script>
 <map id="map_ID" name="map">
     <!-- <area shape="poly" coords="64,773, 99,1156, 234,778, 202,1157" href="javascript:;" id="posology" alt="Posology" title="Posology" /> -->
 
