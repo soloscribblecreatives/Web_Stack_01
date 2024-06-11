@@ -38,66 +38,74 @@ body {
 
 .nav {
 	position: absolute;
-  left: 384px;
+  left: 271px;
   top: 0px;
-  width: 696px;
+  width: 798px;
   height: 29px;
 	z-index: 2;
 }
 
-
 .spot1 {
 	position: absolute;
-  left: 383px;
+  left: 267px;
   top: 0px;
-  width: 114px;
-  height: 44px;
+  width: 115px;
+  height: 43px;
 	z-index: 15;
 }
 
 .spot2 {
 	position: absolute;
-  left: 498px;
+  left: 382px;
   top: 0px;
-  width: 114px;
-  height: 44px;
+  width: 115px;
+  height: 43px;
 	z-index: 15;
 }
 
 .spot3 {
 	position: absolute;
-  left: 613px;
+  left: 497px;
   top: 0px;
-  width: 114px;
-  height: 44px;
+  width: 115px;
+  height: 43px;
 	z-index: 15;
 }
 
 .spot4 {
 	position: absolute;
-  left: 728px;
+  left: 612px;
   top: 0px;
-  width: 114px;
-  height: 44px;
+  width: 115px;
+  height: 43px;
 	z-index: 15;
 }
 
 .spot5 {
 	position: absolute;
-  left: 843px;
+  left: 727px;
   top: 0px;
-  width: 114px;
-  height: 44px;
+  width: 115px;
+  height: 43px;
 	z-index: 15;
 }
 
 .spot6 {
 	position: absolute;
-  left: 958px;
+  left: 842px;
   top: 0px;
-  width: 114px;
-  height: 44px;
+  width: 115px;
+  height: 43px;
 	z-index: 15;
+}
+
+.spot7 {
+  position: absolute;
+  left: 957px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+  z-index: 15;
 }
 
 .s1_1 {
@@ -266,8 +274,11 @@ body {
 <body onload="load();" style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index12.html">
 <div id="Stage" class="EDGE-144335490" style="position: absolute;">
-    <div class="s1_1"><img src="images/s1_1.png" width="100%" alt=""></div><div class="s1_2"><img src="images/s1_2.png"/></div><div class="s1_3"><img src="images/s1_3.png"/></div><div class="s1_4"><img src="images/s1_4.png"/></div><div class="s1_5"><img src="images/s1_5.png"/></div><div class="s1_6"><img src="images/s1_6.png"/></div><div class="nav"><img src="../sebium2/images/nav.png"/></div><div class="spot1" onclick="spot1()"></div><div class="spot2" onclick="spot2()"></div><div class="spot3" onclick="spot3()"></div><div class="spot4" onclick="spot4()"></div><div class="spot5" onclick="spot5()"></div><div class="spot6" onclick="spot6()"></div>
+    <div class="s1_1"><img src="images/s1_1.png" width="100%" alt=""></div><div class="s1_2"><img src="images/s1_2.png"/></div><div class="s1_3"><img src="images/s1_3.png"/></div><div class="s1_4"><img src="images/s1_4.png"/></div><div class="s1_5"><img src="images/s1_5.png"/></div><div class="s1_6"><img src="images/s1_6.png"/></div><div class="nav"><img src="images/nav.png"/></div><div class="spot1" onclick="spot1()"></div><div class="spot2" onclick="spot2()"></div><div class="spot3" onclick="spot3()"></div><div class="spot4" onclick="spot4()"></div><div class="spot5" onclick="spot5()"></div><div class="spot6" onclick="spot6()"></div><div class="spot7" onclick="spot7()"></div>
 </div>
+<div id="divIntro" style="width:auto;display:none;position: fixed; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
+<span id="clickEventDuration" style="display: none;"></span>
+<script src="getUserAction.js"></script>
 
 	<script>
 		function spot1() {
@@ -280,12 +291,15 @@ body {
 			window.location.href="../sebium10/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
 		function spot4() {
-			window.location.href="../sebium16/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+			window.location.href="../sebium12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
 		function spot5() {
-			window.location.href="../sebium19/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+			window.location.href="../sebium16/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
 		function spot6() {
+			window.location.href="../sebium19/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot7() {
 			window.location.href="../sebium23/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
 	</script>
@@ -303,9 +317,6 @@ body {
 
 </map>
 
-<div id="divIntro" style="width:auto;display:none;position: absolute; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
-<span id="clickEventDuration" style="display: none;"></span>
-<script src="getUserAction.js"></script>
   <script>
        var clickEventDurationData=$("#clickEventDuration").text();
            var jsonData = (clickEventDurationData=='')? [] : JSON.parse(clickEventDurationData);
