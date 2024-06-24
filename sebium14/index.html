@@ -36,6 +36,78 @@ body {
 	padding: 0px;
 }
 
+.nav {
+	position: absolute;
+  left: 271px;
+  top: 0px;
+  width: 798px;
+  height: 29px;
+	z-index: 2;
+}
+
+.spot1 {
+	position: absolute;
+  left: 267px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot2 {
+	position: absolute;
+  left: 382px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot3 {
+	position: absolute;
+  left: 497px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot4 {
+	position: absolute;
+  left: 612px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot5 {
+	position: absolute;
+  left: 727px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot6 {
+	position: absolute;
+  left: 842px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+	z-index: 15;
+}
+
+.spot7 {
+  position: absolute;
+  left: 957px;
+  top: 0px;
+  width: 115px;
+  height: 43px;
+  z-index: 15;
+}
+
 .s3_1 {
 	position: fixed;
 	width: 100%;
@@ -628,15 +700,42 @@ body {
 <body style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index14.html">
 <div id="Stage" class="EDGE-144335490" style="position: absolute;">
-    <div class="s3_1"><img src="images/s3_1.png" width="100%" alt=""></div><div class="s3_2"><img src="images/s3_2.png"/></div><div class="s3_3"><img src="images/s3_3.png"/></div><div class="s3_4"><img src="images/s3_4.png"/></div><div class="s3_5"><img src="images/s3_5.png"/></div><div class="s3_6"><img src="images/s3_6.png"/></div><div class="s3_7"><img src="images/s3_7.png"/></div><div class="s3_8"><img src="images/s3_8.png"/></div><div class="s3_9"><img src="images/s3_9.png"/></div><div class="s3_vid"></div><div class="kol" onclick="kol();"></div><video id="s3_vid" width="100%" src="images/s3_vid.mp4" controls></video><div class="closekol" onclick="closekol();"><img src="images/close.png"></div><div class="study1" onclick="checkBtns1();"></div><div class="study2" onclick="checkBtns2();"></div>
+    <div class="s3_1"><img src="images/s3_1.png" width="100%" alt=""></div><div class="s3_2"><img src="images/s3_2.png"/></div><div class="s3_3"><img src="images/s3_3.png"/></div><div class="s3_4"><img src="images/s3_4.png"/></div><div class="s3_5"><img src="images/s3_5.png"/></div><div class="s3_6"><img src="images/s3_6.png"/></div><div class="s3_7"><img src="images/s3_7.png"/></div><div class="s3_8"><img src="images/s3_8.png"/></div><div class="s3_9"><img src="images/s3_9.png"/></div><div class="s3_vid"></div><div class="kol" onclick="kol();"></div><video id="s3_vid" width="100%" src="images/s3_vid.mp4" controls></video><div class="closekol" onclick="closekol();"><img src="images/close.png"></div><div class="study1" onclick="checkBtns1();"></div><div class="study2" onclick="checkBtns2();"></div><div class="nav"><img src="../sebium2/images/nav.png"/></div><div class="spot1" onclick="spot1()"></div><div class="spot2" onclick="spot2()"></div><div class="spot3" onclick="spot3()"></div><div class="spot4" onclick="spot4()"></div><div class="spot5" onclick="spot5()"></div><div class="spot6" onclick="spot6()"></div><div class="spot7" onclick="spot7()"></div>
+</div>
+<div id="divIntro" style="width:auto;display:none;position: fixed; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
+<span id="clickEventDuration" style="display: none;"></span>
+<script src="getUserAction.js"></script>
+
+	<script>
+		function spot1() {
+			window.location.href="../sebium5/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}	
+		function spot2() {
+			window.location.href="../sebium8/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot3() {
+			window.location.href="../sebium10/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot4() {
+			window.location.href="../sebium12/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot5() {
+			window.location.href="../sebium16/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot6() {
+			window.location.href="../sebium19/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		function spot7() {
+			window.location.href="../sebium23/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+	</script>
 	
 	<div class="popIt1" onclick="checkBtns3();"><div class="s4_1"><img src="images/s4_1.png" width="100%" alt=""></div><div class="s4_2"><img src="images/s4_2.png"/></div><div class="s4_3"><img src="images/s4_3.png"/></div></div>
 	
 	<div class="popIt2" onclick="checkBtns3();"><div class="s5_1"><img src="images/s5_1.png" width="100%" alt=""></div><div class="s5_2"><img src="images/s5_2.png"/></div><div class="s5_3"><img src="images/s5_3.png"/></div><div class="s5_4"><img src="images/s5_4.png"/></div></div>
 </div>
-<div id="divIntro" style="width:auto;display:none;position: absolute; color: #1f1e1e;background-color: lavender; color: #696565;border-radius: 5px; font-family: Arial, Helvetica, sans-serif;font-weight: 600;padding:5px;font-size: 17px;"></div>
-<span id="clickEventDuration" style="display: none;"></span>
-<script src="getUserAction.js"></script>
+
+
   <script>
         var clickEventDurationData=$("#clickEventDuration").text();
            var jsonData = (clickEventDurationData=='')? [] : JSON.parse(clickEventDurationData);
