@@ -275,13 +275,31 @@
   height: 120px;
 	z-index: 20;
 }
+
+.left {
+	position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 95px;
+  height: 810px;
+	z-index: 10;
+}
+
+.right {
+	position: absolute;
+  left: 985px;
+  top: 0px;
+  width: 95px;
+  height: 810px;
+	z-index: 10;
+}
     
     </style>
 </head>
 <body onload="load();" style="margin:0px;">
 <input type="hidden" name="" id="pagename" value="index5.html">
 <div id="Stage" class="EDGE-144335490" style="position: fixed;">
-    <link rel="stylesheet" type="text/css" href="images/slide5.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="study" onclick="study();"></div><div class="posology" onclick="posology();"></div>
+    <link rel="stylesheet" type="text/css" href="images/slide5.css" media="screen"/><div class="s1"><img src="images/s1.png" width="1080" height="810" alt=""/></div><div class="s2"><img src="images/s2.png"/></div><div class="s3"><img src="images/s3.png"/></div><div class="s4"><img src="images/s4.png"/></div><div class="s5"><img src="images/s5.png"/></div><div class="s6"><img src="images/s6.png"/></div><div class="s7"><img src="images/s7.png"/></div><div class="s8"><img src="images/s8.png"/></div><div class="study" onclick="study();"></div><div class="posology" onclick="posology();"></div><div class="left" onclick="left()"></div><div class="right" onclick="right()"></div>
 </div>
 <map id="map_ID" name="map">
     <!-- <area shape="poly" coords="64,773, 99,1156, 234,778, 202,1157" href="javascript:;" id="posology" alt="Posology" title="Posology" /> -->
@@ -586,6 +604,14 @@ var mousex=0;
 		}	
 		function study() {
 			window.location.href="../cleanser7/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		
+		function left() {
+			window.location.href="../cleanser4/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
+		}
+		
+		function right() {
+			window.location.href="../cleanser6/index.html?jsondata=" + encodeURIComponent(JSON.stringify(urlprops));
 		}
 	</script>
 
