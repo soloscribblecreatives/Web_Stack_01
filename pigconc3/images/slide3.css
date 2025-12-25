@@ -1,0 +1,139 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.study {
+	position: absolute;
+  left: 766px;
+  top: 0px;
+  width: 314px;
+  height: 195px;
+	z-index: 20;
+}
+
+.s1 {
+	position: absolute;
+	width: 1024px;
+	height: 768px;
+	z-index: 1;
+}
+
+.s2 {
+	position: absolute;
+  left: 56px;
+  top: 37px;
+  width: 655px;
+  height: 64px;
+	animation: slideInRight 0.5s;
+	animation-delay: 0.2s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s3 {
+	position: absolute;
+  left: 0px;
+  top: 177px;
+  width: 286px;
+  height: 25px;
+	animation: slideInLeft 0.5s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s4 {
+	position: absolute;
+  left: 36px;
+  top: 252px;
+  width: 386px;
+  height: 18px;
+	animation: fadeInUp 0.3s;
+	animation-delay: 0.7s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s5 {
+	position: absolute;
+  left: 87px;
+  top: 290px;
+  width: 277px;
+  height: 41px;
+	animation: fadeInUp 0.3s;
+	animation-delay: 0.9s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s6 {
+	position: absolute;
+  left: 88px;
+  top: 341px;
+  width: 275px;
+  height: 171px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s7 {
+	position: absolute;
+  left: 88px;
+  top: 524px;
+  width: 275px;
+  height: 172px;
+	animation: zoomIn 0.5s;
+	animation-delay: 1.5s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s8 {
+	position: absolute;
+  left: 477px;
+  top: 182px;
+  width: 137px;
+  height: 518px;
+	animation: zoomIn 0.5s;
+	animation-delay: 2.2s;
+	animation-fill-mode: both;
+	transform-origin: bottom;
+	z-index: 8;
+}
+
+.s9 {
+	position: absolute;
+  left: 662px;
+  top: 177px;
+  width: 418px;
+  height: 169px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 2.7s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+.s10 {
+	position: absolute;
+  left: 662px;
+  top: 423px;
+  width: 418px;
+  height: 135px;
+	animation: fadeInRight 0.5s;
+	animation-delay: 3s;
+	animation-fill-mode: both;
+	z-index: 5;
+}
+
+@keyframes flashOff {
+  0%, 50%, 100% {
+    opacity: 0;
+  }
+
+  25%, 75% {
+    opacity: 1;
+  }
+}
