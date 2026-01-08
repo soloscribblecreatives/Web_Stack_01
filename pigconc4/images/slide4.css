@@ -5,8 +5,8 @@
 
 .s1 {
 	position: absolute;
-	width: 1024px;
-	height: 768px;
+	width: 1080px;
+	height: 810px;
 	z-index: 1;
 }
 
@@ -171,8 +171,8 @@
 
 .hit_1, .hit_2, .hit_3, .hit_4, .hit_5, .hit_6, .hit_7  {
   position: absolute;
-  width: 1024px;
-  height: 768px;
+  width: 1080px;
+  height: 810px;
   display: none;
   z-index: 15;
 }
@@ -242,8 +242,8 @@
 
 .hit_close1 {
 	position: absolute;
-	width: 1024px;
-	height: 768px;
+	width: 1080px;
+	height: 810px;
 	display: none;
 	z-index: 20;
 }
